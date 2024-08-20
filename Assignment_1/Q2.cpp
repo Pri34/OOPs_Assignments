@@ -8,7 +8,7 @@ int main(){
 	cin >> a;
 	cout << "Enter a decimal" << "\n" ;
 	cin >> b;
-	cout << "Enter a Character" << "\n" ;
+	cout << "Enter a Character" << "\5n" ;
 	cin >> c;
 	cout << "The integer,decimal and character is " << a << "," << b << "," << c ;
 }
