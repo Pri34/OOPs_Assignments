@@ -1,12 +1,12 @@
 #include<iostream>
-#include<string>
 using namespace std;
-struct Details {
-    char Name[50];
+class Details{
+    string Name ;
     int RollNo;
-    char degree[100];
-    char hostel[20];
-    float currentCGPA;
+    string degree;
+    char hostel;
+    float currentCGPA;  
+    public :
     void addDetails() {
         cout<<"Enter the details\n";
         cout << "Name:";
@@ -47,7 +47,7 @@ struct Details {
     }
 };
 int main() {
-    Details x1;
-    x1.addDetails();
-    x1.displayDetails();
+    Details x;
+    x.addDetails();
+    x.displayDetails();
 }
