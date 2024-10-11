@@ -10,6 +10,3 @@ int main() {
 	cout<<"The sum is " << c ;
 	
 }
-
-
-
